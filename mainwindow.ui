@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1013</width>
+    <height>726</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>NCNDIDE</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <layout class="QGridLayout" name="gridLayout">
+    <item row="1" column="1">
+     <widget class="Line" name="line">
+      <property name="orientation">
+       <enum>Qt::Horizontal</enum>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="1">
+     <widget class="QTextBrowser" name="WelcomeBrowser">
+      <property name="html">
+       <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'SimSun'; font-size:9pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:36pt; font-weight:600; color:#000000;&quot;&gt; 欢迎&lt;/span&gt;&lt;span style=&quot; font-size:36pt; color:#000000;&quot;&gt;使用此IDE&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:22pt; color:#000000;&quot;&gt; &lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:20pt; color:#000000;&quot;&gt;  &lt;/span&gt;&lt;span style=&quot; font-size:20pt; font-weight:600; color:#000000;&quot;&gt;点击&lt;/span&gt;&lt;span style=&quot; font-size:20pt; color:#000000;&quot;&gt;左上角“&lt;/span&gt;&lt;span style=&quot; font-size:20pt; font-weight:600; text-decoration: underline; color:#000000;&quot;&gt;新建文件&lt;/span&gt;&lt;span style=&quot; font-size:20pt; color:#000000;&quot;&gt;”或“&lt;/span&gt;&lt;span style=&quot; font-size:20pt; font-weight:600; text-decoration: underline; color:#000000;&quot;&gt;打开文件&lt;/span&gt;&lt;span style=&quot; font-size:20pt; color:#000000;&quot;&gt;”开始编程。&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:20pt; color:#000000;&quot;&gt;  &lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:20pt; color:#000000;&quot;&gt;  &lt;/span&gt;&lt;span style=&quot; font-size:14pt; color:#000000;&quot;&gt;该IDE包含&lt;/span&gt;&lt;span style=&quot; font-size:14pt; text-decoration: underline; color:#000000;&quot;&gt;新建&lt;/span&gt;&lt;span style=&quot; font-size:14pt; color:#000000;&quot;&gt;，&lt;/span&gt;&lt;span style=&quot; font-size:14pt; text-decoration: underline; color:#000000;&quot;&gt;打开&lt;/span&gt;&lt;span style=&quot; font-size:14pt; color:#000000;&quot;&gt;，&lt;/span&gt;&lt;span style=&quot; font-size:14pt; text-decoration: underline; color:#000000;&quot;&gt;保存&lt;/span&gt;&lt;span style=&quot; font-size:14pt; color:#000000;&quot;&gt;，&lt;/span&gt;&lt;span style=&quot; font-size:14pt; text-decoration: underline; color:#000000;&quot;&gt;另存为&lt;/span&gt;&lt;span style=&quot; font-size:14pt; color:#000000;&quot;&gt;文件功能，&lt;/span&gt;&lt;span style=&quot; font-size:14pt; text-decoration: underline; color:#000000;&quot;&gt;复制&lt;/span&gt;&lt;span style=&quot; font-size:14pt; color:#000000;&quot;&gt;，&lt;/span&gt;&lt;span style=&quot; font-size:14pt; text-decoration: underline; color:#000000;&quot;&gt;粘贴&lt;/span&gt;&lt;span style=&quot; font-size:14pt; color:#000000;&quot;&gt;，&lt;/span&gt;&lt;span style=&quot; font-size:14pt; text-decoration: underline; color:#000000;&quot;&gt;剪切&lt;/span&gt;&lt;span style=&quot; font-size:14pt; color:#000000;&quot;&gt;，&lt;/span&gt;&lt;span style=&quot; font-size:14pt; text-decoration: underline; color:#000000;&quot;&gt;全选&lt;/span&gt;&lt;span style=&quot; font-size:14pt; color:#000000;&quot;&gt;，&lt;/span&gt;&lt;span style=&quot; font-size:14pt; text-decoration: underline; color:#000000;&quot;&gt;撤销&lt;/span&gt;&lt;span style=&quot; font-size:14pt; color:#000000;&quot;&gt;功能，&lt;/span&gt;&lt;span style=&quot; font-size:14pt; text-decoration: underline; color:#000000;&quot;&gt;查找替换&lt;/span&gt;&lt;span style=&quot; font-size:14pt; color:#000000;&quot;&gt;，&lt;/span&gt;&lt;span style=&quot; font-size:14pt; text-decoration: underline; color:#000000;&quot;&gt;跳转行号&lt;/span&gt;&lt;span style=&quot; font-size:14pt; color:#000000;&quot;&gt;功能，以及&lt;/span&gt;&lt;span style=&quot; font-size:14pt; text-decoration: underline; color:#000000;&quot;&gt;编译运行&lt;/span&gt;&lt;span style=&quot; font-size:14pt; color:#000000;&quot;&gt;功能；左窗口显示工作文件中的&lt;/span&gt;&lt;span style=&quot; font-size:14pt; text-decoration: underline; color:#000000;&quot;&gt;文件树状图&lt;/span&gt;&lt;span style=&quot; font-size:14pt; color:#000000;&quot;&gt;，下窗口返回编译器的&lt;/span&gt;&lt;span style=&quot; font-size:14pt; text-decoration: underline; color:#000000;&quot;&gt;运行结果或错误提示&lt;/span&gt;&lt;span style=&quot; font-size:14pt; color:#000000;&quot;&gt;，此Qscintilla编辑器具备&lt;/span&gt;&lt;span style=&quot; font-size:14pt; text-decoration: underline; color:#000000;&quot;&gt;行号生成&lt;/span&gt;&lt;span style=&quot; font-size:14pt; color:#000000;&quot;&gt;，&lt;/span&gt;&lt;span style=&quot; font-size:14pt; text-decoration: underline; color:#000000;&quot;&gt;自动排版&lt;/span&gt;&lt;span style=&quot; font-size:14pt; color:#000000;&quot;&gt;，&lt;/span&gt;&lt;span style=&quot; font-size:14pt; text-decoration: underline; color:#000000;&quot;&gt;函数折叠&lt;/span&gt;&lt;span style=&quot; font-size:14pt; color:#000000;&quot;&gt;，&lt;/span&gt;&lt;span style=&quot; font-size:14pt; text-decoration: underline; color:#000000;&quot;&gt;关键词高亮&lt;/span&gt;&lt;span style=&quot; font-size:14pt; color:#000000;&quot;&gt;，&lt;/span&gt;&lt;span style=&quot; font-size:14pt; text-decoration: underline; color:#000000;&quot;&gt;注释隐藏&lt;/span&gt;&lt;span style=&quot; font-size:14pt; color:#000000;&quot;&gt;等功能，详细内容可访问用户使用文档。&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="1">
+     <widget class="QTextBrowser" name="consoleShow">
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Expanding" vsizetype="Maximum">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>16777215</width>
+        <height>180</height>
+       </size>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="0" rowspan="3">
+     <widget class="QTreeWidget" name="fileTree">
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Maximum" vsizetype="Expanding">
+        <horstretch>200</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <column>
+       <property name="text">
+        <string notr="true">1</string>
+       </property>
+      </column>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1013</width>
+     <height>26</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusBar"/>
+  <widget class="QToolBar" name="toolBar">
+   <property name="minimumSize">
+    <size>
+     <width>0</width>
+     <height>40</height>
+    </size>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>18</pointsize>
+    </font>
+   </property>
+   <property name="windowTitle">
+    <string>toolBar</string>
+   </property>
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+   <addaction name="newFile"/>
+   <addaction name="openFile"/>
+   <addaction name="saveFile"/>
+   <addaction name="saveOther"/>
+   <addaction name="separator"/>
+   <addaction name="copy"/>
+   <addaction name="cut"/>
+   <addaction name="paste"/>
+   <addaction name="selAll"/>
+   <addaction name="biteTheDust"/>
+   <addaction name="separator"/>
+   <addaction name="searchAndReplace"/>
+   <addaction name="separator"/>
+   <addaction name="bianyi"/>
+   <addaction name="Process"/>
+   <addaction name="byAndProcess"/>
+   <addaction name="debug"/>
+  </widget>
+  <action name="newFile">
+   <property name="icon">
+    <iconset resource="IDEicon.qrc">
+     <normaloff>:/new/IIIIcon/Icon/newFile .png</normaloff>:/new/IIIIcon/Icon/newFile .png</iconset>
+   </property>
+   <property name="text">
+    <string>新建文件</string>
+   </property>
+  </action>
+  <action name="openFile">
+   <property name="icon">
+    <iconset resource="IDEicon.qrc">
+     <normaloff>:/new/IIIIcon/Icon/openFile.png</normaloff>:/new/IIIIcon/Icon/openFile.png</iconset>
+   </property>
+   <property name="text">
+    <string>打开文件</string>
+   </property>
+  </action>
+  <action name="saveFile">
+   <property name="icon">
+    <iconset resource="IDEicon.qrc">
+     <normaloff>:/new/IIIIcon/Icon/saveFile.png</normaloff>:/new/IIIIcon/Icon/saveFile.png</iconset>
+   </property>
+   <property name="text">
+    <string>保存文件</string>
+   </property>
+  </action>
+  <action name="saveOther">
+   <property name="icon">
+    <iconset resource="IDEicon.qrc">
+     <normaloff>:/new/IIIIcon/Icon/SSave.png</normaloff>:/new/IIIIcon/Icon/SSave.png</iconset>
+   </property>
+   <property name="text">
+    <string>另存为</string>
+   </property>
+  </action>
+  <action name="searchAndReplace">
+   <property name="icon">
+    <iconset resource="IDEicon.qrc">
+     <normaloff>:/new/IIIIcon/Icon/search.png</normaloff>:/new/IIIIcon/Icon/search.png</iconset>
+   </property>
+   <property name="text">
+    <string>查找替换</string>
+   </property>
+  </action>
+  <action name="bianyi">
+   <property name="icon">
+    <iconset resource="IDEicon.qrc">
+     <normaloff>:/new/IIIIcon/Icon/bianyi.png</normaloff>:/new/IIIIcon/Icon/bianyi.png</iconset>
+   </property>
+   <property name="text">
+    <string>编译</string>
+   </property>
+  </action>
+  <action name="Process">
+   <property name="icon">
+    <iconset resource="IDEicon.qrc">
+     <normaloff>:/new/IIIIcon/Icon/Process.png</normaloff>:/new/IIIIcon/Icon/Process.png</iconset>
+   </property>
+   <property name="text">
+    <string>运行</string>
+   </property>
+  </action>
+  <action name="byAndProcess">
+   <property name="icon">
+    <iconset resource="IDEicon.qrc">
+     <normaloff>:/new/IIIIcon/Icon/bianyiAndProcess.png</normaloff>:/new/IIIIcon/Icon/bianyiAndProcess.png</iconset>
+   </property>
+   <property name="text">
+    <string>编译运行</string>
+   </property>
+  </action>
+  <action name="copy">
+   <property name="icon">
+    <iconset resource="IDEicon.qrc">
+     <normaloff>:/new/IIIIcon/Icon/copy.png</normaloff>:/new/IIIIcon/Icon/copy.png</iconset>
+   </property>
+   <property name="text">
+    <string>复制</string>
+   </property>
+  </action>
+  <action name="cut">
+   <property name="icon">
+    <iconset resource="IDEicon.qrc">
+     <normaloff>:/new/IIIIcon/Icon/cut.png</normaloff>:/new/IIIIcon/Icon/cut.png</iconset>
+   </property>
+   <property name="text">
+    <string>剪切</string>
+   </property>
+  </action>
+  <action name="paste">
+   <property name="icon">
+    <iconset resource="IDEicon.qrc">
+     <normaloff>:/new/IIIIcon/Icon/paste.png</normaloff>:/new/IIIIcon/Icon/paste.png</iconset>
+   </property>
+   <property name="text">
+    <string>粘贴</string>
+   </property>
+  </action>
+  <action name="selAll">
+   <property name="icon">
+    <iconset resource="IDEicon.qrc">
+     <normaloff>:/new/IIIIcon/Icon/selAll.png</normaloff>:/new/IIIIcon/Icon/selAll.png</iconset>
+   </property>
+   <property name="text">
+    <string>全选</string>
+   </property>
+  </action>
+  <action name="biteTheDust">
+   <property name="icon">
+    <iconset resource="IDEicon.qrc">
+     <normaloff>:/new/IIIIcon/Icon/biteTheDust.png</normaloff>:/new/IIIIcon/Icon/biteTheDust.png</iconset>
+   </property>
+   <property name="text">
+    <string>撤销</string>
+   </property>
+  </action>
+  <action name="debug">
+   <property name="icon">
+    <iconset resource="IDEicon.qrc">
+     <normaloff>:/new/IIIIcon/Icon/debug.png</normaloff>:/new/IIIIcon/Icon/debug.png</iconset>
+   </property>
+   <property name="text">
+    <string>debug</string>
+   </property>
+  </action>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources>
+  <include location="IDEicon.qrc"/>
+ </resources>
+ <connections/>
+</ui>
