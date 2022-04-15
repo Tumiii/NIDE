@@ -1,0 +1,23 @@
+<RCC>
+    <qresource prefix="/new/IIIIcon">
+        <file>Icon/bianyi.png</file>
+        <file>Icon/closeFile.png</file>
+        <file>Icon/newFile .png</file>
+        <file>Icon/openFile.png</file>
+        <file>Icon/Process.png</file>
+        <file>Icon/saveFile.png</file>
+        <file>Icon/SSave.png</file>
+        <file>Icon/bianyiAndProcess.png</file>
+        <file>Icon/search.png</file>
+        <file>Icon/biteTheDust.png</file>
+        <file>Icon/selAll.png</file>
+        <file>Icon/cut.png</file>
+        <file>Icon/paste.png</file>
+        <file>Icon/copy.png</file>
+        <file>Icon/apis</file>
+        <file>Icon/loading.gif</file>
+        <file>Icon/debug.png</file>
+        <file>Icon/qt_zh_CN.qm</file>
+        <file>Icon/qscintilla_cs.qm</file>
+    </qresource>
+</RCC>
